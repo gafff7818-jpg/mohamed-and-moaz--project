@@ -8,6 +8,18 @@ A C++ program that calculates the power of a number.
 - Handles positive and negative exponents
 - Handles fractional exponents using pow()
 - Error handling for special cases (0^0, division by zero, complex numbers)
+  
+Loop Implementation Logic:
+
+Variable n: Introduced to handle negative exponents by converting them to positive for the while loop iteration, then calculating the reciprocal (1/result).
+
+Special Case Handling:
+
+0^0: Returns "Undefined".
+
+0^-ve: Prevents "Division by Zero".
+
+Negative Base + Fractional Exponent: Returns "Math Error" to avoid complex number issues in basic real-number calculations.
 
 ## Error Cases
 - 0^0 → Math Error
