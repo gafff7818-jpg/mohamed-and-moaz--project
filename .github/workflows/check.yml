@@ -1,0 +1,11 @@
+name: C++ Check
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile files
+        run: |
+          g++ loop.cpp -o loop_test
+          g++ 7.cpp -o 7_test
