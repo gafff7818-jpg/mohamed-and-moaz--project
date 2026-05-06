@@ -1,4 +1,4 @@
-# moaz-mohamed-project
+# mohamed-and-moaz--project
 Multiple implementations of power function in C++
 # Power of Numbers
 
