@@ -8,6 +8,14 @@ A C++ program that calculates the power of a number.
 - Handles positive and negative exponents
 - Handles fractional exponents using pow()
 - Error handling for special cases (0^0, division by zero, complex numbers)
+
+  The function pow(base, exponent) from the <cmath> library does not perform full validation like the conditions you added.
+
+For example:
+
+pow(0, 0) → usually returns 1, but mathematically it is undefined
+pow(0, -2) → returns infinity (∞) because it involves division by zero
+pow(-2, 0.5) → returns NaN (Not a Number)
   
 Loop Implementation Logic:
 
